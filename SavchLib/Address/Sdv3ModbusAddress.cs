@@ -1,5 +1,9 @@
 ﻿namespace SavchLib.Address;
-public static class Sdv3Address
+
+/// <summary>
+///		SDV3 数据的 modbus 地址。
+/// </summary>
+public static class Sdv3ModbusAddress
 {
 	/// <summary>
 	///		获取 EI 的地址
