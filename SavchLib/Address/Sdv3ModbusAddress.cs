@@ -39,4 +39,13 @@ public static class Sdv3ModbusAddress
 
 		return 0xc100 + (index * 2);
 	}
+
+	/// <summary>
+	///		监控 VREF
+	/// </summary>
+	/// <returns></returns>
+	public static uint MonitorVref()
+	{
+		return 0x1020;
+	}
 }
